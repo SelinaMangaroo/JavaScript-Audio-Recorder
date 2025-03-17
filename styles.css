@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+canvas {
+    display: block;
+    margin: 10px auto;
+    background: lightgrey;
+    border-radius: 5px;
+}
+
+.control-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background: darkgray;
+    border-radius: 8px;
+    width: fit-content;
+    margin: 10px auto;
+}
+
+.control-bar button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

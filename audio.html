@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Audio Recorder</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="audio-recorder">
+            <h1>Audio Recorder</h1>
+            <canvas id="visualizer" width="400" height="80"></canvas>
+            <br>
+            <div class="control-bar">
+                <button id="startBtn">▶️ Record</button>
+                <button id="pauseBtn" disabled>⏸️ Pause</button>
+                <button id="stopBtn" disabled>⏹️ Finish</button>
+            </div>
+            <br><br>
+            <label for="audioPlayback"><strong>🎧 Audio Preview:</strong></label>
+            <br>
+            <audio id="audioPlayback" controls></audio>
+            <br><br>
+            <button id="cancelBtn" disabled>❌ Cancel</button>  
+            <button id="saveBtn" disabled>💾 Save</button>  
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
+
