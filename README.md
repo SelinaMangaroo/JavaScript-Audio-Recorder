@@ -44,3 +44,32 @@ Try the live demo: [GitHub Pages Link](#)
 git clone https://github.com/your-username/audio-recorder.git
 cd audio-recorder
 ```
+
+### 🔹 Open in a Browser
+Simply open index.html in your web browser.
+
+---
+
+## 📌 Usage Guide
+1️⃣ Click "▶️ Record" to start recording audio.
+2️⃣ Click "⏸️ Pause" to pause and "▶️ Resume" to continue.
+3️⃣ Click "⏹️ Finish" to stop recording.
+4️⃣ Click "🎧 Audio Preview" to listen to the recorded audio.
+5️⃣ Click "💾 Save" to download the recording as a WebM file.
+6️⃣ Click "❌ Cancel" to discard the recording and reset.
+
+
+--- 
+
+## ⚙️ How It Works
+- The MediaRecorder API captures and stores the microphone audio.
+- The Web Audio API analyzes and visualizes the live audio feed.
+- The recorded data is stored in chunks and combined into a WebM Blob.
+- The user can play back and download the final audio file.
+
+---
+
+## 📜 License
+This project is licensed under the MIT License.
+See LICENSE for details.
+
