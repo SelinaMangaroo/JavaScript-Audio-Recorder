@@ -37,7 +37,7 @@ js-audio-recorder/
 ---
 
 ## **Installation & Setup**
-### ** Clone the Repository**
+### **Clone the Repository**
 ```sh
 git clone https://github.com/SelinaMangaroo/JavaScript-Audio-Recorder.git
 cd js-audio-recorder
