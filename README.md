@@ -4,7 +4,6 @@ This is a **browser-based audio recorder** that allows users to **record, pause,
 
 ![Audio Recorder Screenshot](recorder.png)    
 
-
 ---
 
 ## **Features**
@@ -59,4 +58,3 @@ Simply open `index.html` in your web browser.
 ## License
 This project is licensed under the MIT License.
 See LICENSE for details.
-
