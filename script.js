@@ -72,11 +72,11 @@ function pauseRecording() {
 
     if (isPaused) {
         mediaRecorder.resume();
-        pauseBtn.textContent = "⏸️ Pause";
+        pauseBtn.textContent = "⏸ Pause";
         drawVisualizer(); // Restart visualization
     } else {
         mediaRecorder.pause();
-        pauseBtn.textContent = "▶️ Resume";
+        pauseBtn.textContent = "▶ Resume";
         cancelAnimationFrame(animationFrame); // Stop visualization
     }
     isPaused = !isPaused;
@@ -88,7 +88,7 @@ function stopRecording() {
         mediaRecorder.stop();
         cancelAnimationFrame(animationFrame); // Stop visualization
 
-        pauseBtn.textContent = "⏸️ Pause"; // Reset button text
+        pauseBtn.textContent = "⏸ Pause"; // Reset button text
 
         // Update button states after stopping the recording.
         startBtn.disabled = false;
@@ -121,7 +121,7 @@ function cancelRecording() {
     audioChunks = [];
     audioBlob = null;
     audioPlayback.src = "";
-    pauseBtn.textContent = "⏸️ Pause"; // Reset button text
+    pauseBtn.textContent = "⏸ Pause"; // Reset button text
 
     // Reset button states.
     startBtn.disabled = false;
