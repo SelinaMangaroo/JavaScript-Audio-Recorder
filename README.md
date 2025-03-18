@@ -2,8 +2,8 @@
 
 This is a **browser-based audio recorder** that allows users to **record, pause, stop, play back, and save audio recordings** using the **MediaRecorder API** and **Web Audio API**. The app also includes **real-time audio visualization**.
 
-![Audio Recorder Screenshot](https://via.placeholder.com/800x400?text=Audio+Recorder)  
-*(Replace with an actual screenshot of your app if needed.)*
+![Audio Recorder Screenshot](recorder.png)    
+
 
 ---
 
@@ -44,7 +44,7 @@ cd js-audio-recorder
 ```
 
 ### Open in a Browser
-Simply open index.html in your web browser.
+Simply open `index.html` in your web browser.
 
 --- 
 
