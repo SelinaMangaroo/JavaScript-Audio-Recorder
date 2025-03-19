@@ -1,6 +1,6 @@
 # Audio Recorder Web App
 
-This is a **browser-based audio recorder** that allows users to **record, pause, stop, play back, and save audio recordings** using the **MediaRecorder API** and **Web Audio API**. The app also includes **real-time audio visualization**.
+This is a **browser-based audio recorder** that allows users to record, pause, stop, play back, and save audio recordings using the [**MediaRecorder API**](https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder) and [**Web Audio API**](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Visualizations_with_Web_Audio_API). The app also includes real-time audio visualization.
 
 ![Audio Recorder Screenshot](recorder.png)    
 
